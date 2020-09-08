@@ -12,6 +12,8 @@
 
 4.  Each financial ratio is intended to measure a particular aspect of the firm's performance.  Be sure to know what each ratio is measuring.
 
+Question: which ration are least important?
+
 
 ** Net Operating Profit After Tax (NOPAT)
 
@@ -22,17 +24,21 @@ Measures such as NOPAT and Earnings Before Interest and Taxes (EBIT) attempt to 
 
 EVA is a method of measuring corporate performance that is used in many prominent firms such as AT&T , Coca-Cola, and Toyota.  The idea is to compare cash flow the firm generates to the payments the firm must make to debt and equity holders (WACC times capital).
 
-$$RONA * Capital - WACC * Capital \approx Cash\ Flow\ Generated - Cost\ of\ Cash$$
+$$RONA * Capital - WACC * Capital \approx Cash\ Flow\ Generated - Cost\ of\ Capital\ in\ Dollars$$
 
   Ideally these should be market values, however we often must work with accounting values.
 
 #+begin_src C :includes <stdio.h> :exports both
+int
+main(){
   double NOPAT = 1448;
   double Capital = 9679; /*Capital employed in the business or operation, how does this differ from total assets?*/
   double RONA = NOPAT / Capital; //return on net assets
   double WACC = 0.1272;
   double EVA = (RONA - WACC) * Capital;
   printf("The Economic Value Added is $%.2f\n", EVA);
+  return 0;
+}
 #+end_src
 
 #+results:
@@ -121,11 +127,11 @@ double tax = .4;
 See [[https://www.readthefinance.com/intro_corp_fin.html][lecture notes here]] on (at least) financial ratios and the cost of capital.
 
 
-* Pecking order theory (Capital structure)
+* Pecking Order Theory (Capital Structure)
 
 Financing from cheapest to most expensive
 
-1. Retained earnings
+1. Retained earnings (NOPAT)
 2. Debt
 3. Equity
 
