@@ -106,7 +106,7 @@ double tax = .4;
 
 * Case and Discussion Questions
 
-**Which firm is in the best financial position to expand (buy assets) (win the routes to China)**
+**Which firm is in the best financial position to expand (buy assets) (win the routes to China)?**
 
 Secondary: 
 
