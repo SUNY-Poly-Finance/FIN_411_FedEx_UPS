@@ -106,6 +106,10 @@ double tax = .4;
 
 * Case and Discussion Questions
 
+**Which firm is in the best financial position to expand (buy assets) (win the routes to China)**
+
+Secondary: 
+
 1. Have FedEx and UPS achieved their stated goals?
    + Fedex's goal: "superior financial returns".
    + UPS's goal: "long-term competitive return".
