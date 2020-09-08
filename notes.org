@@ -9,17 +9,22 @@
 2.  Know what are good values of a particular ratio.
 
 3.  Many different ratios measure the same thing, so don't spend time analyzing each.  For example, we can see that Fedex's debt to equity ratio is declining.  Given this we would *expect* its Time-Interest-Earned ratio to increase, which it does.  So there is no need to discuss both ratios.  It is possible, though rare, that the Time-Interest-Earned ratio may not increase.  If this were the case then discussing why would be relevant.  
+
+4.  Each financial ratio is intended to measure a particular aspect of the firm's performance.  Be sure to know what each ratio is measuring.
+
+
 ** Net Operating Profit After Tax (NOPAT)
 
 Measures such as NOPAT and Earnings Before Interest and Taxes (EBIT) attempt to estimate a firm's cash flow.
 
 
-
-
-
 ** Economic Value Added (EVA)
 
-EVA is a method of measuring corporate performance that is used in many prominent firms such as AT&T , Coca-Cola, and Toyota.  The idea is to compare cash flow the firm generates to the payments the firm must make to debt and equity holders (WACC times capital).  Ideally these should be market values, however we often must work with accounting values.
+EVA is a method of measuring corporate performance that is used in many prominent firms such as AT&T , Coca-Cola, and Toyota.  The idea is to compare cash flow the firm generates to the payments the firm must make to debt and equity holders (WACC times capital).
+
+$$RONA * Capital - WACC * Capital \approx Cash\ Flow\ Generated - Cost\ of\ Cash$$
+
+  Ideally these should be market values, however we often must work with accounting values.
 
 #+begin_src C :includes <stdio.h> :exports both
   double NOPAT = 1448;
@@ -102,7 +107,15 @@ double tax = .4;
 3. What has been the effect of the intense competition between the firms?
 4. Which firm would you say is performing "better", and how might we define better?
 
+* Other Notes
+
+- pg 53 "the stock price of both companies had been rising steadily since those talks began..." this is a good example of the type of information you should know if you are going to speculate in the stock market.
+- Fedex had a larger presence in China---was this noticeable in the stock prices?  100 new weekly cargo flights were to be divided between FedExand UPS.
+- UPS stock was listed on the NYSE in 1999, used the stock to increase acquisitions (page 57).
+- pg 59, Capex increases at an annual rate of 35% and 37% for UPS and Fedex respectively.  Also see exhibit 6 page 68.
+- Air cargo market in China growing at 30% per year. Focus on export/import ($1 billion). Middle page 60.
 
 
+* Relevant Lecture Notes
 
-
+See [[https://www.readthefinance.com/intro_corp_fin.html][lecture notes here]] on (at least) financial ratios and the cost of capital.
