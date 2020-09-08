@@ -102,7 +102,9 @@ double tax = .4;
 #+results:
 : The WACC is 5.64%
 
+* Internal and Sustainable Growth Rates
 
+[[https://www.readthefinance.com/growth_rates_and_EFN/][See here.]]  May help answer which firm is in the best financial position to expand.
 
 * Case and Discussion Questions
 
