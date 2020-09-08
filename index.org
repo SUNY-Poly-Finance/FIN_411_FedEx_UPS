@@ -119,3 +119,13 @@ double tax = .4;
 * Relevant Lecture Notes
 
 See [[https://www.readthefinance.com/intro_corp_fin.html][lecture notes here]] on (at least) financial ratios and the cost of capital.
+
+
+* Pecking order theory (Capital structure)
+
+Financing from cheapest to most expensive
+
+1. Retained earnings
+2. Debt
+3. Equity
+
