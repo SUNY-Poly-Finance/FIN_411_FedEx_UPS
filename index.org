@@ -105,7 +105,7 @@ double tax = .4;
 
 * Internal and Sustainable Growth Rates
 
-[[https://www.readthefinance.com/growth_rates_and_EFN/][See here.]]  May help answer which firm is in the best financial position to expand.
+[[https://financial-education.github.io/growth_rates_and_EFN/][See here.]]  May help answer which firm is in the best financial position to expand.
 
 * Case and Discussion Questions
 
@@ -131,7 +131,7 @@ Secondary:
 
 * Relevant Lecture Notes
 
-See [[https://www.readthefinance.com/intro_corp_fin.html][lecture notes here]] on (at least) financial ratios and the cost of capital.
+See [[https://financial-education.github.io/intro_corp_fin.html][lecture notes here]] on (at least) financial ratios and the cost of capital.
 
 
 * Pecking Order Theory (Capital Structure)
