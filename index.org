@@ -20,7 +20,6 @@ Question: which ration are least important?
 
 Measures such as NOPAT and Earnings Before Interest and Taxes (EBIT) attempt to estimate a firm's cash flow.
 
-
 ** Economic Value Added (EVA)
 
 EVA is a method of measuring corporate performance that is used in many prominent firms such as AT&T , Coca-Cola, and Toyota.  The idea is to compare cash flow the firm generates to the payments the firm must make to debt and equity holders (WACC times capital).
@@ -142,3 +141,16 @@ Financing from cheapest to most expensive
 2. Debt
 3. Equity
 
+So when you are thinking about which company is in a better position to expand its assets, you can think about these sources of financing.
+
+1.  Which has greater NOPAT/EVA?
+2.  Which has 'better' long-term debt ratios (higher TIE or lower D/E or EM)?
+3.  How do we measure the ability to issue new equity?
+   + New Equity decreases EPS and raises P/E.
+   + Cost of equity? See this article: [[https://hbr.org/2012/07/do-you-know-your-cost-of-capital][https://hbr.org/2012/07/do-you-know-your-cost-of-capital]]
+
+* Comparing stock performance
+
+Using the provided stock prices:
+- You can calculate annual returns and then use a t0test for significantly different mean returns.
+- Calculate Sharpe Ratios.
